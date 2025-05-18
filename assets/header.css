@@ -1,0 +1,43 @@
+.hero {
+  background-color: #17241f;
+  box-shadow: inset 0 -2.81rem white;
+  height: 100%;
+  overflow: hidden;
+}
+
+header {
+  color: azure;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 26px 75px 0px 75px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+
+header .button {
+  color: #17241f;
+  background-color: #d8f366;
+  border: none;
+  width: 166px;
+  height: 57px;
+  font-size: 18px;
+  font-weight: 600;
+}

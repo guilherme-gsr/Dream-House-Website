@@ -1,0 +1,58 @@
+.hero .title{
+    color: azure;
+    text-align: center;
+    margin: 68px 300px 0px 256px;
+}
+
+.hero .title h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero .title p{
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 50%;
+    letter-spacing: 0.12px;
+    line-height: 1.5;
+}
+
+.hero .title span{
+    color: #D8F366;
+}
+
+.hero .img-bg img{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.hero .name{
+    color: azure;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 34px 0px 72px 75px;
+}
+
+.hero .name span{
+    color: #D8F366;
+}
+
+
+.name{
+    position: relative;
+
+}
+.bg-caraousel{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 1.43rem;
+    flex-direction: row;
+    right: 4.3rem;
+    bottom: -4.8rem;
+
+
+}
