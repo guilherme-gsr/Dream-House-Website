@@ -1,13 +1,182 @@
 @import url(./assets/header.css);
 @import url(./assets/hero-content.css);
-@import url(./about.css);
+@import url(./assets/about.css);
 
+:root {
+  /* Theme 1 */
+  --myrtle-green: #296b5c;
+  --chinese-black: #171717;
+  --chinese-orange: #f26440;
 
+  /* Theme 2 */
+  --chinese-black-2: #161616;
+  --booger-buster: #d8f385;
+  --dark-jungle-green: #17241f;
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  /* Theme 3 */
+  --vampire-black: #0b0b0b;
+  --middle-yellow-red: #dbb356;
+  --gainsboro: #d0d0d0;
 }
 
+.span-color{
+  color: var(--booger-buster);
+}
+
+.display-flex-collumn{
+  display: flex;
+  flex-direction: column;
+}
+
+/* Bold Headings */
+.h1-bold {
+  font-size: 64px;
+  font-weight: 700;
+}
+.h2-bold {
+  font-size: 48px;
+  font-weight: 700;
+}
+.h3-bold {
+  font-size: 36px;
+  font-weight: 700;
+}
+.h4-bold {
+  font-size: 24px;
+  font-weight: 700;
+}
+.h5-bold {
+  font-size: 18px;
+  font-weight: 700;
+}
+.h6-bold {
+  font-size: 14px;
+  font-weight: 700;
+}
+.h7-bold {
+  font-size: 12px;
+  font-weight: 700;
+}
+.h8-bold {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+/* Semibold Headings */
+.h1-semibold {
+  font-size: 64px;
+  font-weight: 600;
+}
+.h2-semibold {
+  font-size: 48px;
+  font-weight: 600;
+}
+.h3-semibold {
+  font-size: 36px;
+  font-weight: 600;
+}
+.h4-semibold {
+  font-size: 24px;
+  font-weight: 600;
+}
+.h5-semibold {
+  font-size: 18px;
+  font-weight: 600;
+}
+.h6-semibold {
+  font-size: 14px;
+  font-weight: 600;
+}
+.h7-semibold {
+  font-size: 12px;
+  font-weight: 600;
+}
+.h8-semibold {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+/* Regular Headings */
+.h1-regular {
+  font-size: 64px;
+  font-weight: 400;
+}
+.h2-regular {
+  font-size: 48px;
+  font-weight: 400;
+}
+.h3-regular {
+  font-size: 36px;
+  font-weight: 400;
+}
+.h4-regular {
+  font-size: 24px;
+  font-weight: 400;
+}
+.h5-regular {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.0075rem;
+}
+.h6-regular {
+  font-size: 14px;
+  font-weight: 400;
+}
+.h7-regular {
+  font-size: 12px;
+  font-weight: 400;
+}
+.h8-regular {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+
+/* Body/Regular/45/18px */
+.body-regular-45-18 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 45px;
+}
+
+/* Body/Regular/35/18px */
+.body-regular-35-18 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+/* Body/Regular/45/16px */
+.body-regular-45-16 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+}
+
+/* Body/Regular/35/16px */
+.body-regular-35-16 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+/* Body/Regular/45/14px */
+.body-regular-45-14 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 45px;
+}
+
+/* Body/Regular/35/14px */
+.body-regular-35-14 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

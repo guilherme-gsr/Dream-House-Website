@@ -1,0 +1,35 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  width: 86.81%;
+  margin-inline: auto;
+  margin-top: 3.0625rem;
+  
+}
+
+.about-img {
+  & img {
+    width: 32.875rem;
+    height: 40.625rem;
+    object-fit: cover;
+  }
+}
+
+.about-text {
+  margin: 5.5rem 0rem 5.4581rem 4.375rem;
+  width: 52.32%;
+
+ 
+}
+
+.p-about{
+  opacity: 50%;
+  color: var(--chinese-black-2);
+  margin-top: 1.5625rem;
+}
+
+.p-title{
+  margin-bottom: 1.5625rem;
+  
+}
