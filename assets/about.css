@@ -1,10 +1,13 @@
 .about {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 2.5rem;
   width: 86.81%;
   margin-inline: auto;
   margin-top: 3.0625rem;
+
+  
   
 }
 
@@ -18,7 +21,8 @@
 
 .about-text {
   margin: 5.5rem 0rem 5.4581rem 4.375rem;
-  width: 52.32%;
+  width: 35%;
+ 
 
  
 }
