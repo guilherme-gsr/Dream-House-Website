@@ -34,6 +34,14 @@
   flex-direction: row;
 }
 
+.gap-45{
+  gap: 2.8125rem;
+}
+
+.gap-27{
+  gap: 1.6875rem;
+}
+
 /* Bold Headings */
 .h1-bold {
   font-size: 64px;

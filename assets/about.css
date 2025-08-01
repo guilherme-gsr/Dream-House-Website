@@ -37,3 +37,32 @@
   margin-bottom: 1.5625rem;
   
 }
+
+.about-line-style{
+  position: relative;
+
+
+}
+
+.line-img{
+  position: absolute;
+ bottom: -0.9375rem;
+ left: -1.4375rem;
+ 
+ & img{
+  width: 20.3125rem;
+  height: 0.8544rem;
+ }
+}
+
+.line-img-2{
+  position: absolute;
+ bottom: -0.9375rem;
+ 
+ & img{
+  width: 20.3125rem;
+  height: 0.8544rem;
+ }
+}
+
+
