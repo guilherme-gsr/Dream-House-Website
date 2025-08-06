@@ -1,79 +1,103 @@
-.services{
-    background-color: var(--dark-jungle-green);
-    width: 100%;
-    margin-top: 6.0625rem;
-    overflow: hidden;
-    padding: 5.375rem 0 5.375rem 4.6875rem;
+.services {
+  background-color: var(--dark-jungle-green);
+  width: 100%;
+  margin-top: 6.0625rem;
+  overflow: hidden;
+  padding: 5.375rem 4.6875rem 5.375rem 4.6875rem;
 }
 
-.services-style{
-  
-    
+.services-style {
+  display: flex;
+  flex-direction: row;
 }
 
-.text-services{
-    width: 30.34%;
+.text-services {
+  width: 30.34%;
 
-    & img{
-        width: 16.875rem;
-        height: 0.875rem;
-        color: #ffffff;
-        margin-left: -1rem;
-    }
+  & img {
+    width: 16.875rem;
+    height: 0.875rem;
+    color: #ffffff;
+    margin-left: -1rem;
+  }
 
+  & p:first-child,
+  h1 {
+    color: #ffffff;
+    margin-bottom: 0.9375rem;
+  }
 
-    & p:first-child, h1{
-        color: #ffffff;
-        margin-bottom: 0.9375rem;
-    }
+  & p:last-child {
+    opacity: 50%;
+    color: #ffffff;
+    margin-top: 1.25rem;
+  }
 
-    & p:last-child{
-        opacity: 50%;
-        color: #ffffff;
-        margin-top: 1.25rem;
-    }
-
-    & span{
-        color: var(--booger-buster);
-    }
-
+  & span {
+    color: var(--booger-buster);
+  }
 }
 
 /* card for services */
 
-.card-container{
-    margin-right: 1.25rem;
+.card-container {
+  width: max-content;
+  margin-right: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.25rem;
 }
 
-
-.card-services{
+.card-services {
   background-color: #f6f6f6;
   width: 19rem;
- height: max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
-.card-description{
-    margin: 1.5rem 0.9375rem 1.25rem 1rem;
+.card-description {
+  margin: 1.5rem 0.9375rem 1.25rem 1rem;
 
-    & p{
-        color: var(--chinese-black-2);
-        opacity: 50%;
-        font-size: 0.75rem;
-        letter-spacing: 0.0075rem;
-        line-height: 1.8;
-        margin-top: 0.25rem;
-    }
+  & p {
+    color: var(--chinese-black-2);
+    opacity: 50%;
+    font-size: 0.75rem;
+    letter-spacing: 0.0075rem;
+    line-height: 1.8;
+    margin-top: 0.25rem;
+  }
 }
 
-.card-button{
-   display: flex;
-   justify-content: center;
-   margin-bottom: 1rem;
+.card-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
 
-
-   & button{
+  & button {
+    cursor: pointer;
     padding: 0.8125rem 6.1875rem 0.75rem 6.1875rem;
     border: none;
     background-color: var(--booger-buster);
+  }
 }
+
+.about-line-style {
+  & h1 {
+    white-space: nowrap;
+  }
+}
+
+.text-services {
+  & h1 {
+    white-space: nowrap;
+  }
 }
